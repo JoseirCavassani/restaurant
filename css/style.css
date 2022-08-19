@@ -5,3 +5,15 @@ body {
   color: whitesmoke;
   background-color: black;
 }
+/*HEADER*/
+#header-nav {
+  background-color: antiquewhite;
+}
+.logo {
+  margin-right: 10px;
+  clear: right;
+}
+.title {
+  float: right;
+  padding: 5px;
+}

@@ -17,3 +17,16 @@ body {
   float: right;
   padding: 5px;
 }
+.position-menu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 140%;
+}
+.text-menu {
+  padding: 5px;
+  font-size: 110%;
+  text-align: center;
+  color: black;
+  border: 1px solid red;
+  width: 150px;
+}

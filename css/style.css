@@ -23,10 +23,60 @@ body {
   font-size: 140%;
 }
 .text-menu {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 110%;
+  color: black;
+  width: 150px;
   padding: 5px;
   font-size: 110%;
+}
+
+.text-menu p {
+  margin-bottom: 0;
   text-align: center;
-  color: black;
-  border: 1px solid red;
-  width: 150px;
+}
+.phone {
+  color: orangered;
+  font-weight: 600;
+}
+.navbar-toggler {
+  border: 1px solid black;
+}
+/*END HEADER*/
+
+/**********LARGE DEVICES ONLY**********/
+@media (min-width: 1200px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+/**********MEDIUM DEVICES ONLY**********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+/**********SMALL DEVICES ONLY**********/
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: hotpink;
+  }
+  .text-menu {
+    position: fixed;
+    left: 40%;
+    top: 4%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 250px;
+  }
+}
+/**********EXTRA SMALL DEVICES ONLY**********/
+@media (max-width: 767px) {
+  body {
+    background-color: darkolivegreen;
+  }
 }
